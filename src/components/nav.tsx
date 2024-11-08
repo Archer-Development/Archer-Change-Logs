@@ -27,7 +27,7 @@ const Navbar: React.FC<NavbarProps> = ({ toggleSidebar, headers, searchQuery, on
     <nav className="bg-black text-white border-b border-gray-600 p-4 flex items-center justify-between sticky top-0 z-50">
       <ul className="flex space-x-4">
         <li>
-          <Link href="/" className="text-white">Home</Link>
+          <Link href="https://www.archer.is/" className="text-white">Home</Link>
         </li>
         <li>
           <Link href="/docs" className="text-white">Documentation</Link>
