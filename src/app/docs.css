@@ -3,19 +3,24 @@
   }
   
   .markdown-container h2 {
-    @apply text-2xl font-bold my-3;
+    @apply text-2xl font-bold my-6 pb-3;
   }
   
   .markdown-container ul {
-    @apply list-disc pl-5; 
+    @apply list-disc pl-5 pb-3; 
   }
   
   .markdown-container li {
-    @apply my-2; 
+    @apply my-1; 
   }
 
   .markdown-container a {
     @apply text-blue-600 underline hover:text-blue-800;
+}
+
+.markdown-container hr {
+  @apply my-4 border-t-2 border-gray-300 opacity-80;
+
 }
 
 .markdown-container h1,
